@@ -13,6 +13,8 @@ Se puede usar la app en Español y en Inglés
 
 Original App in Control Repository
 
+El perfil del usuario permite guardar una foto del mismo
+
 ## 🚀 About Me
 I'm a full stack developer who love to work with Trongate https://trongate.io/
 I've recently learned React Js livingcharly.com
