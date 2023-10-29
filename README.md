@@ -17,7 +17,7 @@ El perfil del usuario permite guardar una foto del mismo
 
 ## 🚀 About Me
 I'm a full stack developer who love to work with Trongate https://trongate.io/
-I've recently learned React Js livingcharly.com
+I've recently learned React Js livingcharly.com.ar
 And now learning React Native
 
 ## Tech Stack
