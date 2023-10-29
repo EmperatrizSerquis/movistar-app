@@ -1,10 +1,16 @@
 # movistar-app
 Proyecto realizado para Coderhouse en el curso de React Native.
+
 App para realizar el Control de ventas de agentes Movistar
+
 Permite agregar usuarios que a su vez pueden agregar ventas realizadas que podrán ser visualizadas por el administrador de la aplicación (acceso admin@test.com  Pass: Admin1234)
+
 Las ventas se guardan en Firebase
+
 Los datos del usuario persisten por SQLite
+
 Se puede usar la app en Español y en Inglés
+
 Original App in Control Repository
 
 ## 🚀 About Me
