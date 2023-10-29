@@ -104,15 +104,15 @@ const styles = StyleSheet.create({
         borderWidth: 1,
     },
     buttonSpanish: {
-        backgroundColor: Colors.primary,
-        //padding: 3,
+        backgroundColor: 'orange',
         width: width * 0.2,
         height: height * 0.03,
         justifyContent: "center",
         alignItems: "center",
     },
     buttonEnglish: {
-        backgroundColor: Colors.primary,
+        backgroundColor: 'orange',
+        color: Colors.white,
         width: width * 0.2,
         height: height * 0.03,
         justifyContent: "center",
@@ -120,6 +120,7 @@ const styles = StyleSheet.create({
     },
     buttonModoOn: {
         backgroundColor: Colors.primary,
+        color: Colors.white,
         width: width * 0.2,
         height: height * 0.03,
         justifyContent: "center",

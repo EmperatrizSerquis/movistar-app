@@ -29,14 +29,16 @@ const Inicio = ({navigation}) =>{
 
     useEffect(()=> {
         if (!isLoading) {
-            dispatch(infoUserData({userName: data.userName, userRange: data.userRange}))
+            dispatch(infoUserData({userName: data?.userName, userRange: data?.userRange}))
         }
     },[data, isLoading])
 
     const onHangleSeeUser = () =>{
         if (RangeUser == "Admin") {
             navigation.navigate("SeeUsersNav")
-        }else setIsModalOn(!isModalOn)
+        }else {
+            setIsModalOn(!isModalOn)
+        } 
         
     }
 
@@ -81,6 +83,7 @@ const Inicio = ({navigation}) =>{
                     style={styles.button}
                     onPress={onHangleSeeUser}
                 >
+
                 <View style={styles.containerRowButton}>
                     <View style={styles.description}>
                         <Text style={styles.textOption}>{msg.msgVerUsuarios}</Text>

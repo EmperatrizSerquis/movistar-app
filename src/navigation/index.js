@@ -28,7 +28,7 @@ const AppNavigator = () => {
     }, [])
 
     useEffect(() => {
-         (async () => {
+        ; (async () => {
             try {
                 const session = await fetchSession()
                 if (session.rows.length) {

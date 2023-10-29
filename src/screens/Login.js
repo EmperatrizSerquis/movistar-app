@@ -3,11 +3,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { View, Text, Image, TextInput, TouchableOpacity, Alert, TouchableWithoutFeedback, Keyboard, Dimensions, StyleSheet } from "react-native";
 import ModalCustom from "../components/ModalCustom";
 import CustomHead from "../components/CustomHead";
-// import { signIn } from "../../store/actions";
 import { UPDATED_FORM, onFocusOut, onInputChange } from "../utils";
-// import { LoadLenguageAct } from "../../store/actions";
 import { Lenguage } from "../constants/Lenguage"
-// import { LoadImageProfile } from "../../store/actions";
 import { Colors } from "../constants/colors";
 import { useSingInMutation } from "../services/AuthService";
 import { singIn } from "../features/AuthSlice";

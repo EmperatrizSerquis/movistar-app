@@ -42,7 +42,7 @@ export const Lenguage = [
             msgModo: "Modo",
             //Tab Navigation
             msgInicio: "Inicio",
-            msgConfig: "Configuración",
+            msgConfig: "Perfil",
             //modal y msg error
             msgError: "Mensaje del sistema",
             msgCorreoIncorrecto: "El correo o la contraseña son incorrectos",
@@ -97,7 +97,7 @@ export const Lenguage = [
             msgModo: "Mode",
             //Tab Navigation
             msgInicio: "Home",
-            msgConfig: "Settings",
+            msgConfig: "Perfil",
             //modal y msg error
             msgError: "system message",
             msgCorreoIncorrecto: "The email or password is incorrect",

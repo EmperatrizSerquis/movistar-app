@@ -25,8 +25,8 @@ const ProfileComponent = ({ nombre, range }) => {
 
     useEffect(()=> {
         if (!isLoading) {
-            if (data.photoProfile) {
-                setPickUrl(data.photoProfile)
+            if (data?.photoProfile) {
+                setPickUrl(data?.photoProfile)
             }
         }
     },[isLoading])
