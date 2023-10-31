@@ -1,5 +1,7 @@
 # movistar-app
 Control de ventas de agentes Movistar
+Original App in Control Repository 
+
 
 ## 🚀 About Me
 I'm a full stack developer who love to work with Trongate https://trongate.io/

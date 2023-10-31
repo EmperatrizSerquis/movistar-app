@@ -1,11 +1,9 @@
 import React from "react";
 import { View, Text, Modal, TouchableOpacity, StyleSheet, Dimensions } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
-// import { GiveAdminAction } from "../../store/actions/getUsersAction";
 import { Colors } from "../constants/colors";
 import { Lenguage } from "../constants/Lenguage";
 import { useSwitchUserRangeMutation } from "../services/InfoUserService";
-import { switchUserRange } from "../features/AuthSlice";
 
 const { height, width } = Dimensions.get("window");
 

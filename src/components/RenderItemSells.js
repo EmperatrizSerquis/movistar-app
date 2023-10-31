@@ -20,7 +20,6 @@ const RenderItemSells = ({item}) =>{
                 <Text style={styles.textDescription}>{msg.msgNombreVendedor}:</Text>
                 <Text style={styles.textInfo}>{item.nombreVendedor}</Text>
 
-
                 <Text style={styles.textDescription}>{msg.msgNombreCliente}:</Text>
                 <Text style={styles.textInfo}>{item.nombreCliente}</Text>
 

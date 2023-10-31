@@ -1,5 +1,4 @@
 import { View, Text, StyleSheet, Dimensions } from "react-native";
-import { useSelector } from "react-redux";
 import { Colors } from "../constants/colors";
 
 const { height, width} = Dimensions.get("window");

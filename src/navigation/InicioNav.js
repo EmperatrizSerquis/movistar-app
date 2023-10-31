@@ -1,7 +1,6 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
-// import { Inicio, SelectOptions, Sells, SeeUsers } from "../screens";
 import { useDispatch, useSelector } from "react-redux";
 import { Lenguage } from "../constants/Lenguage";
 import Inicio from "../screens/Inicio";

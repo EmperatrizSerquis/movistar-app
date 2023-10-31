@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, TextInput, ScrollView, TouchableWithoutFeedback, Keyboard, Alert, StyleSheet, Dimensions } from "react-native";
-// import { ModalCustom, PickerProduct } from "../../components";
 import PickerProduct from "../components/PickerProduct";
 import ModalCustom from "../components/ModalCustom";
 import { useDispatch, useSelector } from "react-redux";
-// import { insertSells } from "../../store/actions";
 import { Colors } from "../constants/colors";
 import { Lenguage } from "../constants/Lenguage";
 import { useInsertSellsMutation } from "../services/ManagementService";
@@ -38,7 +36,6 @@ const SelectOptions = () => {
             setMensage(msg.msgCamposSinComplete);
             setIsModalOn(!isModalOn)
         } else {
-            // dispatch(insertSells(localId, inputs))
             triggerInsertSell({localId: localId, inputs: inputs})
             setInputs({});
             setMensage(msg.msgDatosEnviados);
@@ -185,7 +182,6 @@ const styles = StyleSheet.create({
     },
     containerTitle: {
         alignItems: "center",
-        //marginTop: 10,
         width: width,
         height: height * 0.06,
         borderBottomColor: Colors.primary,

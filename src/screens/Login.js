@@ -1,6 +1,6 @@
-import React, { useState, useReducer, useEffect } from "react";
+import React, { useState, useReducer } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { View, Text, Image, TextInput, TouchableOpacity, Alert, TouchableWithoutFeedback, Keyboard, Dimensions, StyleSheet } from "react-native";
+import { View, Text, Image, TextInput, TouchableOpacity, TouchableWithoutFeedback, Keyboard, Dimensions, StyleSheet } from "react-native";
 import ModalCustom from "../components/ModalCustom";
 import CustomHead from "../components/CustomHead";
 import { UPDATED_FORM, onFocusOut, onInputChange } from "../utils";
@@ -103,7 +103,6 @@ const Login = ({ navigation }) => {
                         autoCapitalize="none"
                         autoCorrect={false}
                         onChangeText={(text) => onHandleInput(text, "email")}
-                        //onBlur={(e) => onHandleBlur(e.nativeEvent.text, 'email')}
                         hasError={formState.email.hasError}
                         error={formState.email.error}
                         touched={formState.email.touched}
@@ -118,7 +117,6 @@ const Login = ({ navigation }) => {
                         autoCapitalize="none"
                         autoCorrect={false}
                         onChangeText={(text) => onHandleInput(text, "password")}
-                        //onBlur={(e) => onHandleBlur(e.nativeEvent.text, 'password')}
                         hasError={formState.password.hasError}
                         error={formState.password.error}
                         touched={formState.password.touched}

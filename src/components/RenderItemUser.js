@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from "react-native";
-import { useSelector, useDispatch } from "react-redux";
+import { Text, TouchableOpacity, StyleSheet, Dimensions } from "react-native";
+import { useSelector } from "react-redux";
 import { Lenguage } from "../constants/Lenguage";
 import { Colors } from "../constants/colors";
 import ModalCustomSetAdmin from "./ModalCustomSetAdmin";
-// import { GiveAdminAction } from "../../store/actions/getUsersAction";
 
 const { widht, heigth } = Dimensions.get("window");
 

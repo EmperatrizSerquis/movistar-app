@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as ImagePicker from "expo-image-picker"
 import { View, Text, TouchableOpacity, Image, StyleSheet, Dimensions } from "react-native";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Lenguage } from "../constants/Lenguage";
 import { Colors } from "../constants/colors";
 import {  useGetDataUserQuery, useSetProfilePhotoMutation } from "../services/InfoUserService";

@@ -1,6 +1,6 @@
 import React, { useState, useReducer } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { View, Text, Image, TextInput, TouchableOpacity, Alert, TouchableWithoutFeedback, Keyboard, StyleSheet, Dimensions } from "react-native";
+import { View, Text, Image, TextInput, TouchableOpacity, TouchableWithoutFeedback, Keyboard, StyleSheet, Dimensions } from "react-native";
 import CustomHead from "../components/CustomHead";
 import { UPDATED_FORM, onFocusOut, onInputChange } from "../utils";
 import { Lenguage } from "../constants/Lenguage";
@@ -116,7 +116,6 @@ const Register = ({ navigation }) => {
                         autoCapitalize="none"
                         autoCorrect={false}
                         onChangeText={(text) => onHandleInput(text, "email")}
-                        //onBlur={(e) => onHandleBlur(e.nativeEvent.text, "email")}
                         onEndEditing={(e) => onHandleBlur(e.nativeEvent.text, "email")}
                     />
                     {formState.email.hasError && formState.email.touched && (
@@ -130,11 +129,9 @@ const Register = ({ navigation }) => {
                         placeholderTextColor={"#00aae4"}
                         value={formState.password.value}
                         placeholder={msg.msgIngresePass}
-                        //secureTextEntry={true}
                         autoCapitalize="none"
                         autoCorrect={false}
                         onChangeText={(text) => { onHandleInput(text, "password"), setRepit(text) }}
-                        //onBlur={(e) => onHandleBlur(e.nativeEvent.text, "password")}
                         onEndEditing={(e) => { onHandleBlur(e.nativeEvent.text, "password"); }}
                     />
                     {formState.password.hasError && formState.password.touched && (
@@ -151,7 +148,6 @@ const Register = ({ navigation }) => {
                         autoCorrect={false}
                         onChangeText={(text) => onHandleInput(text, "repitPass")}
                         onEndEditing={(e) => onHandleBlur(e.nativeEvent.text, "repitPass")}
-                    //value={passRepeat}
                     />
                     {formState.repitPass.hasError && formState.repitPass.touched && (
                         <View style={styles.message}>

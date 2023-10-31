@@ -1,9 +1,8 @@
 import { StyleSheet, Text, View, FlatList, Dimensions } from 'react-native'
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Colors } from '../constants/colors';
 import { useSelector, useDispatch } from "react-redux";
 import RenderItemUsers from '../components/RenderItemUser';
-// import { getUserAction } from "../../store/actions";
 import { useGetAllDataUserQuery } from "../services/InfoUserService"
 import { infoAllUsers } from '../features/AuthSlice';
 
