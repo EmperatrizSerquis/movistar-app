@@ -35,11 +35,6 @@ const SeeSells = () => {
     const mapping = filter.map((item) => item.valor);
     const msg = mapping[0];
 
-
-    // useEffect(() => {
-    //     dispatch(GetSellsAction(userId))
-    // }, [dispatch])
-
     const RenderItem = ({ item }) => (
         <RenderItemSells item={item} />
     )

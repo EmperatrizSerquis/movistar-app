@@ -1,11 +1,23 @@
 # movistar-app
-Control de ventas de agentes Movistar
-Original App in Control Repository 
+Proyecto realizado para Coderhouse en el curso de React Native.
 
+App para realizar el Control de ventas de agentes Movistar
+
+Permite agregar usuarios que a su vez pueden agregar ventas realizadas que podrán ser visualizadas por el administrador de la aplicación (acceso admin@test.com  Pass: Admin1234)
+
+Las ventas se guardan en Firebase
+
+Los datos del usuario persisten por SQLite
+
+Se puede usar la app en Español y en Inglés
+
+Original App in Control Repository
+
+El perfil del usuario permite guardar una foto del mismo
 
 ## 🚀 About Me
 I'm a full stack developer who love to work with Trongate https://trongate.io/
-I've recently learned React Js livingcharly.com
+I've recently learned React Js livingcharly.com.ar
 And now learning React Native
 
 ## Tech Stack
@@ -76,3 +88,16 @@ function App() {
 
 ## License
   [MIT](https://choosealicense.com/licenses/mit/)
+
+  ## Screenshots
+
+![App Screenshot](https://eproweb.net/pictures/logos_pics/35/iniciot9Jd.jpeg)
+![App Screenshot](https://eproweb.net/pictures/logos_pics/36/mainzzfw.jpeg)
+![App Screenshot](https://eproweb.net/pictures/logos_pics/37/ventaskBYF.jpeg)
+![App Screenshot](https://eproweb.net/pictures/logos_pics/38/usersRJ8m.jpeg)
+![App Screenshot](https://eproweb.net/pictures/logos_pics/40/crear-veUCPw.jpeg)
+![App Screenshot](https://eproweb.net/pictures/logos_pics/39/userPx9A.jpeg)
+
+
+
+  
